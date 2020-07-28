@@ -1,3 +1,9 @@
+---
+layout: page
+title: Hire Me
+show-in-nav: true
+---
+
 # Vectors
 
 Vectorise your photo - $24.99
