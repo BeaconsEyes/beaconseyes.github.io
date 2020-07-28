@@ -1,4 +1,5 @@
 $highlight-color: #C2a0bc;
+$highlight-color-deep: rgb(145,80,137);
 $header-color: #000;
 
 header {
@@ -17,7 +18,7 @@ img {  background-color:$header-color; }
 }
 
 .homepagenav {
-  background-color: $highlight-color;
+  background-color: $highlight-color-deep;
   display:flex;
   align-items: center;
   justify-content: space-around;
@@ -25,6 +26,6 @@ img {  background-color:$header-color; }
   .page-link {
     color:#fff;
     font-family: 'Arima Madurai';
-    text-shadow:1px 1px 2px rgba(0,0,0,0.7);
+    text-shadow:-1px -2px 1px rgba(0,0,0,0.9);
   }
 }

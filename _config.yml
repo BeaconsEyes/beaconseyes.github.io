@@ -19,8 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   27 year old freelance graphic designed in Tel Aviv, Israel.
 tagline: Graphic Design By Ella
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
+instagram_username: beaconseyes
 
 # Build settings
 markdown: kramdown
