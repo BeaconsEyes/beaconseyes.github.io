@@ -1,9 +1,27 @@
 ---
 layout: default
 ---
+
+{% comment %}
+This page will automatically display content for all pages that
+have the layout "page" in the top of the page.
+It automatically detects if there is a featured-image or not
+and creates an appropriate page.
+{% endcomment %}
+
+{%- if page.featured-image -%}
 <article class="page-with-image">
     <img class="featured-image" src="{{page.featured-image}}" />
     <div class="content">
       {{ content }}
     </div>
 </article>
+
+{% else %}
+
+<article class="post">
+  <div class="content">
+    {{ content }}
+  </div>
+</article>
+{%- endif -%}

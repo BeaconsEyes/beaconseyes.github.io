@@ -1,12 +1,13 @@
 $highlight-color: #C2a0bc;
 $highlight-color-deep: rgb(145,80,137);
 $header-color: #000;
+$header-color-text: #fff;
 
 header {
   background-color: $header-color;
   font-family: 'Arima Madurai';
   .site-title, .site-title:visited  {
-    color:#fff;
+    color:$header-color-text;
   }
 }
 
@@ -40,4 +41,12 @@ img {  background-color:$header-color; }
    justify-content: center;
    flex-direction:column;
  }
+}
+
+.site-nav .page-link {
+  color:$header-color-text;
+  @media screen and (max-width: 600px) {
+    color:$highlight-color-deep;
+
+  }
 }
