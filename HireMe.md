@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Hire Me
-show-in-nav: true
 ---
 
 # Vectors

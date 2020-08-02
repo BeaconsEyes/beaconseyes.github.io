@@ -1,12 +1,17 @@
 $highlight-color: #C2a0bc;
 $highlight-color-deep: rgb(145,80,137);
 $header-color: #000;
+$header-color-text: #fff;
 
 header {
+  font-family: 'Arima Madurai';
+  color: $highlight-color-deep;
+}
+.site-header {
   background-color: $header-color;
   font-family: 'Arima Madurai';
   .site-title, .site-title:visited  {
-    color:#fff;
+    color:$header-color-text;
   }
 }
 
@@ -27,5 +32,52 @@ img {  background-color:$header-color; }
     color:#fff;
     font-family: 'Arima Madurai';
     text-shadow:-1px -2px 1px rgba(0,0,0,0.9);
+  }
+}
+
+.page-with-image {
+  .image-block {
+ display:flex;
+ flex-direction: row;
+}
+ .featured-image, .content {
+   display:flex;
+   flex-grow:1;
+   align-items:center;
+   justify-content: center;
+   flex-direction:column;
+ }
+ .featured-image {
+   margin:0.7em 1em;
+   max-width: 50%;
+ }
+}
+
+.site-nav .page-link {
+  color:$header-color-text;
+  @media screen and (max-width: 600px) {
+    color:$highlight-color-deep;
+
+  }
+}
+
+.price-list {
+  h2, h2 + ul {
+  background-color: $highlight-color;
+  font-family: Athiti;
+  list-style-type:none;
+  padding:0;
+  display:flex;
+  flex-grow:1;
+  width:100%;
+  justify-content: flex-start;
+  margin: 0.5em 0.5em 0 0.5em;
+  box-sizing: border-box;
+  padding-left:0.7em;
+  }
+  h2 + ul {
+    flex-direction:column;
+    padding-left:1em;
+    margin: 0em 0.5em 0.5em 0.5em;
   }
 }
