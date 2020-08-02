@@ -3,6 +3,6 @@ layout: page
 title: Contact
 ---
 
-ella@beaconseyes.com
+**Mail:** ella@beaconseyes.com
 
 [Instagram](https://www.instagram.com/beacons_eyes/)

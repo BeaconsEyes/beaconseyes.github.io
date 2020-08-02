@@ -1,10 +1,9 @@
 ---
 layout: default
 ---
-<article class="post">
-  <div class="featured-image"></div>
-  <div class="post-content">
-    {{ content }}
-  </div>
-
+<article class="page-with-image">
+    <img class="featured-image" src="{{page.featured-image}}" />
+    <div class="content">
+      {{ content }}
+    </div>
 </article>
