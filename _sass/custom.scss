@@ -3,6 +3,10 @@ $highlight-color-deep: rgb(145,80,137);
 $header-color: #000;
 $header-color-text: #fff;
 
+body {
+  font-family: Athiti;
+}
+
 header {
   font-family: 'Arima Madurai';
   color: $highlight-color-deep;
@@ -10,6 +14,7 @@ header {
 
 h2, h3, h4, h5 {
   font-family: Athiti;
+  font-weight:bold;
 }
 
 .site-header {
@@ -56,7 +61,7 @@ img {  background-color:$header-color; }
  .featured-image {
    margin:0.7em 1em 0.7em 0;
    max-width: 50%;
-   background-color: lighten($highlight-color,20%);
+//   background-color: lighten($highlight-color,20%);
  }
 }
 
@@ -82,7 +87,9 @@ img {  background-color:$header-color; }
   }
   h2 + ul {
     flex-direction:column;
-    padding-left:1em;
+    padding: 0em 1em 1em 1em;
     margin: 0em 0.5em 0.5em 0.5em;
   }
 }
+
+.post-header {margin-bottom:0;}
