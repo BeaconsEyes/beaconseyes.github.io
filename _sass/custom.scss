@@ -4,6 +4,10 @@ $header-color: #000;
 $header-color-text: #fff;
 
 header {
+  font-family: 'Arima Madurai';
+  color: $highlight-color-deep;
+}
+.site-header {
   background-color: $header-color;
   font-family: 'Arima Madurai';
   .site-title, .site-title:visited  {
@@ -32,8 +36,9 @@ img {  background-color:$header-color; }
 }
 
 .page-with-image {
+  .image-block {
  display:flex;
- flex-direction: row;
+ flex-direction: row;}
  .featured-image, .content {
    display:flex;
    flex-grow:1;
@@ -41,6 +46,7 @@ img {  background-color:$header-color; }
    justify-content: center;
    flex-direction:column;
  }
+ .featured-image {max-width: 50%;}
 }
 
 .site-nav .page-link {
