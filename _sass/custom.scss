@@ -7,6 +7,11 @@ header {
   font-family: 'Arima Madurai';
   color: $highlight-color-deep;
 }
+
+h2, h3, h4, h5 {
+  font-family: Athiti;
+}
+
 .site-header {
   background-color: $header-color;
   font-family: 'Arima Madurai';
@@ -44,12 +49,14 @@ img {  background-color:$header-color; }
    display:flex;
    flex-grow:1;
    align-items:center;
-   justify-content: center;
    flex-direction:column;
+   justify-content: flex-start;
+   max-width:50%;
  }
  .featured-image {
-   margin:0.7em 1em;
+   margin:0.7em 1em 0.7em 0;
    max-width: 50%;
+   background-color: lighten($highlight-color,20%);
  }
 }
 
@@ -64,11 +71,9 @@ img {  background-color:$header-color; }
 .price-list {
   h2, h2 + ul {
   background-color: $highlight-color;
-  font-family: Athiti;
   list-style-type:none;
   padding:0;
   display:flex;
-  flex-grow:1;
   width:100%;
   justify-content: flex-start;
   margin: 0.5em 0.5em 0 0.5em;

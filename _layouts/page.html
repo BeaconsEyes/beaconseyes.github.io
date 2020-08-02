@@ -21,7 +21,7 @@ and creates an appropriate page.
 <article class="page-with-image {% if page.price-list %} price-list{%endif%}">
   {{ title }}
     <div class="image-block">
-      <img class="featured-image" src="{{page.featured-image}}" />
+      <div class="featured-image"><img src="{{page.featured-image}}" /></div>
       <div class="content">
         {{ content }}
       </div>
