@@ -92,4 +92,8 @@ img {  background-color:$header-color; }
   }
 }
 
+.shadowed-image .featured-image img {
+  box-shadow: -22px 22px 0px $highlight-color;
+}
+
 .post-header {margin-bottom:0;}

@@ -17,8 +17,16 @@ and creates an appropriate page.
   {% endif %}
 {% endcapture %}
 
+{%- capture classes -%}
+  "page-with-image
+  {% if page.price-list %} price-list{%endif%}
+  {% if page.shadowed-image %} shadowed-image{%endif%}
+  "
+{%- endcapture -%}
+
+
 {%- if page.featured-image -%}
-<article class="page-with-image {% if page.price-list %} price-list{%endif%}">
+<article class={{classes}}>
   {{ title }}
     <div class="image-block">
       <div class="featured-image"><img src="{{page.featured-image}}" /></div>
@@ -30,7 +38,7 @@ and creates an appropriate page.
 
 {% else %}
 
-<article class="post{% if page.price-list %} price-list{%endif%}"">
+<article class={{classes}}>
   {{ title }}
   <div class="content">
     {{ content }}
