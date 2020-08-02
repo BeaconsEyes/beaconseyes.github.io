@@ -1,6 +1,7 @@
-# **Beacon's Eyes** 
-- Design by Ella
+# **Beacon's Eyes**
 
-[Contact](https://beaconseyes.github.io/Contact)
+Design by Ella
 
-[Hire Me](https://beaconseyes.github.io/HireMe)
+This is the repo for ella's design work.
+
+This site is hosted on github pages and runs using [jekyll](https://jekyllrb.com/), a static site generator.

@@ -1,0 +1,31 @@
+$highlight-color: #C2a0bc;
+$highlight-color-deep: rgb(145,80,137);
+$header-color: #000;
+
+header {
+  background-color: $header-color;
+  font-family: 'Arima Madurai';
+  .site-title, .site-title:visited  {
+    color:#fff;
+  }
+}
+
+.hero {
+img {  background-color:$header-color; }
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homepagenav {
+  background-color: $highlight-color-deep;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  height:3em;
+  .page-link {
+    color:#fff;
+    font-family: 'Arima Madurai';
+    text-shadow:-1px -2px 1px rgba(0,0,0,0.9);
+  }
+}
