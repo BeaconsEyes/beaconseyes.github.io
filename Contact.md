@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Contact
+featured-image: assets/Business card Front.jpg
 ---
 
-featured-image: assets/Business card Front.jpg
+
 
 **Mail:** ella@beaconseyes.com
 
