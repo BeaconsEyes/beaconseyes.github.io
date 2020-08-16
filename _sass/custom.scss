@@ -2,18 +2,20 @@ $highlight-color: #C2a0bc;
 $highlight-color-deep: rgb(145,80,137);
 $header-color: #000;
 $header-color-text: #fff;
+$header-font: 'Arima Madurai'
+$body-font: Athiti;
 
 body {
-  font-family: Athiti;
+  font-family: $body-font;
 }
 
 header {
-  font-family: 'Arima Madurai';
+  font-family: $header-font;
   color: $highlight-color-deep;
 }
 
 h2, h3, h4, h5 {
-  font-family: Athiti;
+  font-family: $body-font;
   font-weight:bold;
 }
 
@@ -40,7 +42,7 @@ img {  background-color:$header-color; }
   height:3em;
   .page-link {
     color:#fff;
-    font-family: 'Arima Madurai';
+    font-family: $header-font;
     text-shadow:-1px -2px 1px rgba(0,0,0,0.9);
   }
 }
@@ -97,3 +99,23 @@ img {  background-color:$header-color; }
 }
 
 .post-header {margin-bottom:0;}
+
+.image-gallery {
+  display:flex;
+  .featured-image {
+    flex-grow:1;
+    margin:0.5em;
+    background-color:rgb(189,178,163);
+    h2 {
+      background-color: $highlight-color;
+      padding:0.5em;
+      text-align: center;
+      font-size:1.8em;
+      font-family: $header-font;
+      font-weight:bold;
+      a {
+        color:#fff;
+      }
+    }
+  }
+}
