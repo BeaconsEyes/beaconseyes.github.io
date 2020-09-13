@@ -5,7 +5,7 @@ gallery:
   flyers:
     title: Flyers
     image-url: assets/Flyer%20graphic%20gold.jpg
-    link-url: /flyers
+    link-url: /flyer-design
   portraits:
     title: Vector Portraits
     image-url: assets/Vector%20graphic%20gold.jpg
